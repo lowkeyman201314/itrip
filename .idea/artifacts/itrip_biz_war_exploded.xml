@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="itrip-biz:war exploded">
+    <output-path>$PROJECT_DIR$/itrip-biz/target/itrip-biz</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itrip-biz" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="itrip-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itrip-dao" />
+          </element>
+          <element id="archive" name="itrip-utils-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itrip-utils" />
+          </element>
+          <element id="archive" name="itrip-beans-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itrip-beans" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/itrip-biz/target/itrip-biz/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="itrip-biz/web/Web" />
+    </root>
+  </artifact>
+</component>

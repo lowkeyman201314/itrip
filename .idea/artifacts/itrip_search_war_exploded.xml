@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="itrip-search:war exploded">
+    <output-path>$PROJECT_DIR$/itrip-search/target/itrip-search</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itrip-search" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="itrip-utils-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itrip-utils" />
+          </element>
+          <element id="archive" name="itrip-beans-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itrip-beans" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/itrip-search/target/itrip-search/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="itrip-search/web/Web" />
+    </root>
+  </artifact>
+</component>
